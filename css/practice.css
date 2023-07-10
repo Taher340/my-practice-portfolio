@@ -28,7 +28,57 @@
     color: #fff;
     border: none;
 }
+/* Mid-section */
 
+.mid-sec{
+    width: 1600px;
+    height: 800px;
     
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mid-sec-left{
+    width: 560px;
+    height: 720px;
+    margin-left: 50px;
     
-    
+}
+.mid-sec-right{
+    width: 416px;
+    height: 400px;
+    margin-right: 250px;
+}
+.mid-sec-right h2{
+    font-size: 50px;
+}
+.mid-sec-right p{
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+/*My Plan */
+
+.sec-3{
+    margin: 100px;
+}
+h3{
+    text-align: center;
+    font-size: 80px; 
+    margin-bottom: 80px;
+}
+
+.my-plan{
+    display: flex;
+    justify-content: space-between;
+}
+.plan{
+    text-align: center;
+}
+.plan h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+.plan p{
+    font-size: 20px;
+}
